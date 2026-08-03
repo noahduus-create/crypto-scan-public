@@ -1,0 +1,129 @@
+{
+  "schema": "crypto_scan_public_weather_v1",
+  "ts": "2026-08-03T05:25:49Z",
+  "exported_at": "2026-08-03T05:28:44Z",
+  "product": "crypto_scan_pack",
+  "surface": "public_board_weather",
+  "honesty": "process_map_only_no_fake_pnl_no_entries_dual_clock",
+  "disclaimer": "Research / process map only. Not a trade signal. Not live execution data. No fake P&L. Agents never live trade. Quiet boards are valid weather.",
+  "agent_attach": {
+    "purpose": "Free dual-clock board weather for agents + free host (gist/GH).",
+    "how_to_use": [
+      "Read dual_clock first — LIVE residual ≠ paid pack stamp when diverged",
+      "If paper_gate.any_paper_candidate is false → journal/watch, not entry",
+      "Never invent P&L, size, or entries from this file",
+      "Paid zip remains the full scan pack on Gumroad when listed"
+    ]
+  },
+  "dual_clock": {
+    "live_board_side": "mixed",
+    "live_widest_basis_symbol": "BNBUSDT",
+    "live_widest_basis_bps": 5.4593,
+    "pack_board_side": "mixed",
+    "pack_widest_basis_symbol": "XRPUSDT",
+    "pack_widest_basis_bps": -6.211104371640488,
+    "pack_ts": "2026-07-31T15:37:36Z",
+    "live_vs_pack": "diverged",
+    "law": "LIVE residual from features every ~5m; PACK snap is Gumroad attach freeze. diverged = residual weather only — not a re-export trigger while unlisted."
+  },
+  "paper_gate": {
+    "any_paper_candidate": false,
+    "threshold": 0.001,
+    "streak_n": 3,
+    "leader_streak": 0,
+    "leader_call": "watch"
+  },
+  "live_weather": {
+    "board_side": "mixed",
+    "n_premium": 1,
+    "n_discount": 1,
+    "widest_basis_symbol": "BNBUSDT",
+    "widest_basis_bps": 5.4593,
+    "oi_leader": "BTCUSDT",
+    "oi_top_share_pct": 55.27,
+    "basis_bar_bps": 5.0,
+    "funding_leader": "BTCUSDT",
+    "funding_leader_abs": 0.0001,
+    "funding_leader_call": "watch"
+  },
+  "n_symbols": 5,
+  "rows_top": [
+    {
+      "symbol": "BTCUSDT",
+      "abs_funding": 0.0001,
+      "last_funding": 0.0001,
+      "slope": 0.0,
+      "basis_bps": -3.6966,
+      "basis_label": "near_flat",
+      "fund_label": "watch",
+      "oi_notional": 6863213081.1618,
+      "mark": "62804.10000000",
+      "index": "62827.32500000",
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "abs_funding": 9.467e-05,
+      "last_funding": 9.467e-05,
+      "slope": 1.8940000000000005e-05,
+      "basis_bps": -3.3887,
+      "basis_label": "near_flat",
+      "fund_label": "watch",
+      "oi_notional": 316412890.214,
+      "mark": "1.07090000",
+      "index": "1.07126302",
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "abs_funding": 6.961e-05,
+      "last_funding": 6.961e-05,
+      "slope": -8.532e-05,
+      "basis_bps": 5.4593,
+      "basis_label": "premium",
+      "fund_label": "watch",
+      "oi_notional": 342713320.454,
+      "mark": "583.64000000",
+      "index": "583.32154877",
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "abs_funding": 3.695e-05,
+      "last_funding": 3.695e-05,
+      "slope": -6.305000000000001e-05,
+      "basis_bps": -4.8206,
+      "basis_label": "near_flat",
+      "fund_label": "quiet",
+      "oi_notional": 4300148205.6914,
+      "mark": "1856.91141085",
+      "index": "1857.80697674",
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "quiet"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "abs_funding": 1.297e-05,
+      "last_funding": -1.297e-05,
+      "slope": -9.282e-05,
+      "basis_bps": -5.3564,
+      "basis_label": "discount",
+      "fund_label": "quiet",
+      "oi_notional": 595118724.2922,
+      "mark": "72.88540452",
+      "index": "72.92446566",
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "quiet"
+    }
+  ],
+  "paid_product": {
+    "name": "Crypto Scan Pack",
+    "price_usd_target": 49,
+    "status": "local_preflight_GO_gumroad_unlisted",
+    "note": "Full wedges + board.csv + elevates in paid zip when listed."
+  },
+  "law": "Treasure surface PUBLIC-BOARD-WEATHER (2026-08-02). Free dual-clock drop — not dual Gumroad SKU. Cash #1 still list paid pack."
+}

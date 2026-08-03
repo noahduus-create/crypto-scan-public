@@ -1,0 +1,14 @@
+{
+  "schema": "crypto_scan_settlement_clock_free_v1",
+  "ts": "2026-08-03T05:28:44Z",
+  "next_windows_utc": [
+    "2026-08-03T08:00:00Z",
+    "2026-08-03T16:00:00Z",
+    "2026-08-04T00:00:00Z",
+    "2026-08-04T08:00:00Z",
+    "2026-08-04T16:00:00Z",
+    "2026-08-05T00:00:00Z"
+  ],
+  "ics": "/Users/noahduus/ops/data/product/public/settlement-clock-binance-8h.ics",
+  "honesty": "process_map_only_no_fake_pnl_no_entries"
+}
