@@ -1,0 +1,91 @@
+{
+  "schema": "persistence_map_free_v1",
+  "ts": "2026-08-08T06:36:52Z",
+  "live_trade": false,
+  "lookback_days_cap": 14,
+  "source_note": "hourly_jsonl_n_prints=1835",
+  "paper_bar": 0.001,
+  "soft_abs": 0.0001,
+  "paper_gate_now": {
+    "any_paper_candidate": false,
+    "threshold": 0.001
+  },
+  "most_persistent": "BTCUSDT",
+  "most_flippy": "SOLUSDT",
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "n_h": 367,
+      "first_hour": "2026-07-24T00",
+      "last_hour": "2026-08-08T06",
+      "pct_pos": 97.5,
+      "pct_neg": 2.5,
+      "pct_abs_ge_1e-4": 11.4,
+      "pct_abs_gt_0.001": 0.0,
+      "max_same_sign_run_h": 155,
+      "flips": 6,
+      "flip_rate_pct": 1.6,
+      "last_funding": 3.582e-05
+    },
+    {
+      "symbol": "BNBUSDT",
+      "n_h": 367,
+      "first_hour": "2026-07-24T00",
+      "last_hour": "2026-08-08T06",
+      "pct_pos": 80.1,
+      "pct_neg": 0.0,
+      "pct_abs_ge_1e-4": 13.9,
+      "pct_abs_gt_0.001": 0.0,
+      "max_same_sign_run_h": 113,
+      "flips": 0,
+      "flip_rate_pct": 0.0,
+      "last_funding": 6.23e-05
+    },
+    {
+      "symbol": "XRPUSDT",
+      "n_h": 367,
+      "first_hour": "2026-07-24T00",
+      "last_hour": "2026-08-08T06",
+      "pct_pos": 68.7,
+      "pct_neg": 31.3,
+      "pct_abs_ge_1e-4": 24.8,
+      "pct_abs_gt_0.001": 0.0,
+      "max_same_sign_run_h": 69,
+      "flips": 26,
+      "flip_rate_pct": 7.1,
+      "last_funding": 8.94e-05
+    },
+    {
+      "symbol": "SOLUSDT",
+      "n_h": 367,
+      "first_hour": "2026-07-24T00",
+      "last_hour": "2026-08-08T06",
+      "pct_pos": 71.9,
+      "pct_neg": 28.1,
+      "pct_abs_ge_1e-4": 21.5,
+      "pct_abs_gt_0.001": 0.0,
+      "max_same_sign_run_h": 67,
+      "flips": 28,
+      "flip_rate_pct": 7.7,
+      "last_funding": 0.0001
+    },
+    {
+      "symbol": "ETHUSDT",
+      "n_h": 367,
+      "first_hour": "2026-07-24T00",
+      "last_hour": "2026-08-08T06",
+      "pct_pos": 83.9,
+      "pct_neg": 15.8,
+      "pct_abs_ge_1e-4": 4.9,
+      "pct_abs_gt_0.001": 0.0,
+      "max_same_sign_run_h": 62,
+      "flips": 25,
+      "flip_rate_pct": 6.8,
+      "last_funding": 2.486e-05
+    }
+  ],
+  "honesty": "process_map_only_no_fake_pnl_no_entries",
+  "family": "crypto_scan_product",
+  "law": "free_tof_not_dual_sku",
+  "cash_hero": "crypto_scan_pack_~$49_when_listed"
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "oi_share_free_v1",
+  "ts": "2026-08-07T06:19:51Z",
+  "live_trade": false,
+  "oi_leader": "BTCUSDT",
+  "oi_top_share_pct": 54.4538,
+  "total_oi_notional": 12465990624.9176,
+  "ranked": [
+    {
+      "rank": 1,
+      "symbol": "BTCUSDT",
+      "oi_share_pct": 54.4538,
+      "oi_share_cum_pct": 54.4538
+    },
+    {
+      "rank": 2,
+      "symbol": "ETHUSDT",
+      "oi_share_pct": 35.0059,
+      "oi_share_cum_pct": 89.4598
+    },
+    {
+      "rank": 3,
+      "symbol": "SOLUSDT",
+      "oi_share_pct": 4.9365,
+      "oi_share_cum_pct": 94.3963
+    },
+    {
+      "rank": 4,
+      "symbol": "XRPUSDT",
+      "oi_share_pct": 2.8277,
+      "oi_share_cum_pct": 97.224
+    },
+    {
+      "rank": 5,
+      "symbol": "BNBUSDT",
+      "oi_share_pct": 2.776,
+      "oi_share_cum_pct": 100.0
+    }
+  ],
+  "honesty": "process_map_only",
+  "family": "crypto_scan_product"
+}

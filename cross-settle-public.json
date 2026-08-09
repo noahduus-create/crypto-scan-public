@@ -1,0 +1,57 @@
+{
+  "schema": "crypto_scan_cross_settle_public_v0",
+  "ts": "2026-08-04T05:55:00Z",
+  "product": "crypto_scan_pack",
+  "surface": "cross_settle_free_tof",
+  "honesty": "process_map_only_no_fake_pnl_no_multi_ex_arb_claims",
+  "disclaimer": "Research process map only. Clock mismatch is not free money. Not a trade signal. Agents never live trade. Verify venue intervals from source docs before any claim.",
+  "law": [
+    "clock_unknown_means_stop_inventing_arb",
+    "normalize_horizon_before_compare",
+    "cost_stack_after_clocks_match",
+    "not_dual_sku_pre_first_dollar",
+    "attach_freeze_no_elevate_into_zip"
+  ],
+  "venue_classes": [
+    {
+      "id": "binance_usdm_majors",
+      "typical_cadence_research": "8h",
+      "label": "clock_binance_check_product",
+      "quality": "partial",
+      "note": "Historical common; verify product docs before claims"
+    },
+    {
+      "id": "perp_dex_hl_class",
+      "typical_cadence_research": "1h_or_continuous",
+      "label": "clock_dex_hourly_or_unknown",
+      "quality": "partial",
+      "note": "Often hourly — never treat raw rate as 8h-equivalent"
+    },
+    {
+      "id": "other_cex",
+      "typical_cadence_research": "1h_4h_8h_mix",
+      "label": "clock_verify_docs",
+      "quality": "unknown",
+      "note": "Product-specific"
+    },
+    {
+      "id": "unknown",
+      "typical_cadence_research": null,
+      "label": "clock_unknown",
+      "quality": "unknown",
+      "note": "Journal only — refuse multi-ex edge language"
+    }
+  ],
+  "related_free": [
+    "SETTLEMENT-CLOCK-FREE.md",
+    "settlement-clock-binance-8h.ics",
+    "board-weather-public.json",
+    "WHY-PAID-PACK.md"
+  ],
+  "paid_same_family": {
+    "sku": "crypto_scan_pack",
+    "price_usd_when_listed": 49,
+    "elevates": ["SETTLEMENT-CLOCK", "COST-STACK", "GATE-LADDER", "APR-THEATER-KILL"]
+  },
+  "inventory_full": "mcp/CROSS-SETTLE-MAP-v0.md"
+}

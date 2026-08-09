@@ -1,0 +1,6 @@
+ts,symbol,last_funding,abs_funding,streak_abs_gt_0.001,hourly_call,rung,basis_bps,honesty
+2026-08-08T06:36:52Z,SOLUSDT,0.0001,0.0001,0,watch,R1,-3.0803,process_map_only_rung_neq_entry
+2026-08-08T06:36:52Z,XRPUSDT,8.94e-05,8.94e-05,0,watch,R1,-4.7494,process_map_only_rung_neq_entry
+2026-08-08T06:36:52Z,BNBUSDT,6.23e-05,6.23e-05,0,watch,R1,6.7533,process_map_only_rung_neq_entry
+2026-08-08T06:36:52Z,BTCUSDT,3.582e-05,3.582e-05,0,quiet,R0,-4.2857,process_map_only_rung_neq_entry
+2026-08-08T06:36:52Z,ETHUSDT,2.486e-05,2.486e-05,0,quiet,R0,-4.7058,process_map_only_rung_neq_entry

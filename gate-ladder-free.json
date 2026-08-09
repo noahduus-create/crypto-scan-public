@@ -1,0 +1,55 @@
+{
+  "schema": "gate_ladder_free_v1",
+  "ts": "2026-08-08T06:36:52Z",
+  "live_trade": false,
+  "board_rung": "R1 (watch-led)",
+  "any_paper_candidate": false,
+  "threshold": 0.001,
+  "streak_n": 3,
+  "leader_symbol": "SOLUSDT",
+  "leader_abs": 0.0001,
+  "leader_call": "watch",
+  "max_abs_pct_of_bar": 10.0,
+  "board_side": "premium_led",
+  "rows": [
+    {
+      "symbol": "SOLUSDT",
+      "abs_funding": 0.0001,
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch",
+      "rung": "R1"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "abs_funding": 8.94e-05,
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch",
+      "rung": "R1"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "abs_funding": 6.23e-05,
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "watch",
+      "rung": "R1"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "abs_funding": 3.582e-05,
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "quiet",
+      "rung": "R0"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "abs_funding": 2.486e-05,
+      "streak_abs_gt_0.001": 0,
+      "hourly_call": "quiet",
+      "rung": "R0"
+    }
+  ],
+  "honesty": "process_map_only_no_fake_pnl_no_entries",
+  "family": "crypto_scan_product",
+  "law": "free_tof_not_dual_sku",
+  "cash_hero": "crypto_scan_pack_~$49_when_listed"
+}

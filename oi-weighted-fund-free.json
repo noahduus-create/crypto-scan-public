@@ -1,0 +1,58 @@
+{
+  "schema": "oi_weighted_fund_free_v1",
+  "ts": "2026-08-08T06:36:52Z",
+  "live_trade": false,
+  "equal_weight_mean_funding": 6.2476e-05,
+  "oi_weighted_funding": 3.7445722716024347e-05,
+  "ratio_oi_w_over_equal": 0.599362,
+  "capital_label": "thin_name_noise",
+  "oi_leader": "BTCUSDT",
+  "oi_top_share_pct": 55.0177,
+  "board_side": "premium_led",
+  "paper_gate": {
+    "any_paper_candidate": false,
+    "threshold": 0.001,
+    "streak_n": 3
+  },
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "last_funding": 3.582e-05,
+      "oi_share_pct": 55.0177,
+      "capital_contrib": 1.9707349712875133e-05,
+      "hourly_call": "quiet"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last_funding": 2.486e-05,
+      "oi_share_pct": 34.4812,
+      "capital_contrib": 8.572030034884238e-06,
+      "hourly_call": "quiet"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last_funding": 0.0001,
+      "oi_share_pct": 4.9773,
+      "capital_contrib": 4.977287565085506e-06,
+      "hourly_call": "watch"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last_funding": 6.23e-05,
+      "oi_share_pct": 2.7646,
+      "capital_contrib": 1.7223206553887543e-06,
+      "hourly_call": "watch"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last_funding": 8.94e-05,
+      "oi_share_pct": 2.7592,
+      "capital_contrib": 2.466734747790712e-06,
+      "hourly_call": "watch"
+    }
+  ],
+  "honesty": "process_map_only_no_fake_pnl_no_entries",
+  "family": "crypto_scan_product",
+  "law": "free_tof_not_dual_sku",
+  "cash_hero": "crypto_scan_pack_~$49_when_listed"
+}

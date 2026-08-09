@@ -1,0 +1,6 @@
+ts,symbol,last_funding,abs_funding,oi_share_pct,capital_contrib,hourly_call,basis_bps,honesty
+2026-08-08T06:36:52Z,BTCUSDT,3.582e-05,3.582e-05,55.0177,1.9707349712875133e-05,quiet,-4.2857,process_map_only_oi_weighted_neq_edge
+2026-08-08T06:36:52Z,ETHUSDT,2.486e-05,2.486e-05,34.4812,8.572030034884238e-06,quiet,-4.7058,process_map_only_oi_weighted_neq_edge
+2026-08-08T06:36:52Z,SOLUSDT,0.0001,0.0001,4.9773,4.977287565085506e-06,watch,-3.0803,process_map_only_oi_weighted_neq_edge
+2026-08-08T06:36:52Z,BNBUSDT,6.23e-05,6.23e-05,2.7646,1.7223206553887543e-06,watch,6.7533,process_map_only_oi_weighted_neq_edge
+2026-08-08T06:36:52Z,XRPUSDT,8.94e-05,8.94e-05,2.7592,2.466734747790712e-06,watch,-4.7494,process_map_only_oi_weighted_neq_edge

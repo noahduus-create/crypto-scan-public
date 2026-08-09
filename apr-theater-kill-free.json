@@ -1,0 +1,70 @@
+{
+  "schema": "apr_theater_kill_free_v1",
+  "ts": "2026-08-07T06:19:51Z",
+  "live_trade": false,
+  "periods_per_year_assumed": 1095,
+  "paper_gate": {
+    "threshold": 0.001,
+    "streak_n": 3,
+    "any_paper_candidate": false,
+    "leader_streak": 0,
+    "leader_call": "quiet"
+  },
+  "board_side": "near_flat",
+  "leader": {
+    "symbol": "BTCUSDT",
+    "last_funding": 3.748e-05,
+    "abs_funding": 3.748e-05,
+    "hourly_call": "quiet",
+    "apr_theater_pct": 4.1040600000000005
+  },
+  "rows": [
+    {
+      "symbol": "BTCUSDT",
+      "last_funding": 3.748e-05,
+      "abs_funding": 3.748e-05,
+      "apr_theater_pct": 4.1,
+      "hourly_call": "quiet",
+      "basis_bps": -3.7296,
+      "streak_abs_gt_0.001": 0
+    },
+    {
+      "symbol": "ETHUSDT",
+      "last_funding": 2.927e-05,
+      "abs_funding": 2.927e-05,
+      "apr_theater_pct": 3.21,
+      "hourly_call": "quiet",
+      "basis_bps": -4.2912,
+      "streak_abs_gt_0.001": 0
+    },
+    {
+      "symbol": "SOLUSDT",
+      "last_funding": 1.567e-05,
+      "abs_funding": 1.567e-05,
+      "apr_theater_pct": 1.72,
+      "hourly_call": "quiet",
+      "basis_bps": -4.4372,
+      "streak_abs_gt_0.001": 0
+    },
+    {
+      "symbol": "XRPUSDT",
+      "last_funding": 1.478e-05,
+      "abs_funding": 1.478e-05,
+      "apr_theater_pct": 1.62,
+      "hourly_call": "quiet",
+      "basis_bps": -3.8126,
+      "streak_abs_gt_0.001": 0
+    },
+    {
+      "symbol": "BNBUSDT",
+      "last_funding": 0.0,
+      "abs_funding": 0.0,
+      "apr_theater_pct": 0.0,
+      "hourly_call": "quiet",
+      "basis_bps": 3.6047,
+      "streak_abs_gt_0.001": 0
+    }
+  ],
+  "honesty": "naive_annualize_is_theater_not_edge",
+  "family": "crypto_scan_product"
+}

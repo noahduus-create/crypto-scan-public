@@ -1,0 +1,63 @@
+{
+  "schema": "basis_extremes_free_v1",
+  "ts": "2026-08-07T06:19:51Z",
+  "live_trade": false,
+  "honesty": "process_map_only_no_fake_pnl",
+  "board": {
+    "board_side": "near_flat",
+    "widest_basis_symbol": "SOLUSDT",
+    "widest_basis_bps": -4.4372,
+    "basis_bar_bps": 5.0,
+    "n_premium": 0,
+    "n_discount": 0
+  },
+  "paper_gate": {
+    "any_paper_candidate": false,
+    "threshold": 0.001
+  },
+  "ranked_by_abs_basis": [
+    {
+      "rank": 1,
+      "symbol": "SOLUSDT",
+      "basis_bps": -4.4372,
+      "basis_label": "near_flat",
+      "last_funding": 1.567e-05,
+      "hourly_call": "quiet"
+    },
+    {
+      "rank": 2,
+      "symbol": "ETHUSDT",
+      "basis_bps": -4.2912,
+      "basis_label": "near_flat",
+      "last_funding": 2.927e-05,
+      "hourly_call": "quiet"
+    },
+    {
+      "rank": 3,
+      "symbol": "XRPUSDT",
+      "basis_bps": -3.8126,
+      "basis_label": "near_flat",
+      "last_funding": 1.478e-05,
+      "hourly_call": "quiet"
+    },
+    {
+      "rank": 4,
+      "symbol": "BTCUSDT",
+      "basis_bps": -3.7296,
+      "basis_label": "near_flat",
+      "last_funding": 3.748e-05,
+      "hourly_call": "quiet"
+    },
+    {
+      "rank": 5,
+      "symbol": "BNBUSDT",
+      "basis_bps": 3.6047,
+      "basis_label": "near_flat",
+      "last_funding": 0.0,
+      "hourly_call": "quiet"
+    }
+  ],
+  "cash_path": "Crypto Scan Pack ~$49 when listed",
+  "family": "crypto_scan_product",
+  "law": "free TOF \u00b7 not dual paid SKU \u00b7 basis_neq_arb"
+}

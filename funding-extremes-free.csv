@@ -1,0 +1,6 @@
+ts,symbol,last_funding,abs_funding,slope,basis_bps,mark,index,oi,oi_notional,hourly_call,streak_abs_gt_0.001,paper_threshold,any_paper_candidate,honesty
+2026-08-06T06:03:42Z,XRPUSDT,-0.00012634,0.00012634,-0.00014753000000000002,-6.3011,1.05100000,1.05166266,326670365.4,343330554.0354,watch,0,0.001,False,process_map_only_no_fake_pnl_no_entries
+2026-08-06T06:03:42Z,SOLUSDT,-5.69e-05,5.69e-05,-5.758e-05,-6.6693,74.15000000,74.19948585,8301796.93,615578242.3595,watch,0,0.001,False,process_map_only_no_fake_pnl_no_entries
+2026-08-06T06:03:42Z,BTCUSDT,3.087e-05,3.087e-05,-3.4970000000000006e-05,-3.8258,64832.80000000,64857.61326087,106361.284,6895699853.3152,quiet,0,0.001,False,process_map_only_no_fake_pnl_no_entries
+2026-08-06T06:03:42Z,ETHUSDT,-7.16e-06,7.16e-06,-1.0330000000000001e-05,-4.3374,1912.34529457,1913.17511628,2278859.666,4357966559.2605,quiet,0,0.001,False,process_map_only_no_fake_pnl_no_entries
+2026-08-06T06:03:42Z,BNBUSDT,0.0,0.0,0.0,4.1926,596.66135994,596.41130970,590247.1,352177637.3866,quiet,0,0.001,False,process_map_only_no_fake_pnl_no_entries

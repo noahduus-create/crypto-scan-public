@@ -1,0 +1,6 @@
+ts,rank_by_abs_basis,symbol,basis_bps,basis_label,last_funding,abs_funding,hourly_call,mark,index,oi_notional,board_side,widest_basis_symbol,widest_basis_bps,basis_bar_bps,paper_any_candidate,honesty
+2026-08-07T06:19:51Z,1,SOLUSDT,-4.4372,near_flat,1.567e-05,1.567e-05,quiet,72.95393363,72.98631893,615380549.6734,near_flat,SOLUSDT,-4.4372,5.0,False,process_map_only_no_fake_pnl_no_entries_basis_neq_arb
+2026-08-07T06:19:51Z,2,ETHUSDT,-4.2912,near_flat,2.927e-05,2.927e-05,quiet,1903.01441860,1903.83139535,4363837727.0086,near_flat,SOLUSDT,-4.4372,5.0,False,process_map_only_no_fake_pnl_no_entries_basis_neq_arb
+2026-08-07T06:19:51Z,3,XRPUSDT,-3.8126,near_flat,1.478e-05,1.478e-05,quiet,1.02590000,1.02629128,352503392.8432,near_flat,SOLUSDT,-4.4372,5.0,False,process_map_only_no_fake_pnl_no_entries_basis_neq_arb
+2026-08-07T06:19:51Z,4,BTCUSDT,-3.7296,near_flat,3.748e-05,3.748e-05,quiet,64369.95712319,64393.97347826,6788211458.5943,near_flat,SOLUSDT,-4.4372,5.0,False,process_map_only_no_fake_pnl_no_entries_basis_neq_arb
+2026-08-07T06:19:51Z,5,BNBUSDT,3.6047,near_flat,0.0,0.0,quiet,588.09000000,587.87808655,346057496.7981,near_flat,SOLUSDT,-4.4372,5.0,False,process_map_only_no_fake_pnl_no_entries_basis_neq_arb

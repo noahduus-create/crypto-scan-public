@@ -1,0 +1,6 @@
+ts,rank_by_oi_notional,symbol,oi,oi_notional,oi_share_pct,oi_share_cum_pct,last_funding,basis_bps,hourly_call,honesty
+2026-08-07T06:19:51Z,1,BTCUSDT,105456.206,6788211458.5943,54.4538,54.4538,3.748e-05,-3.7296,quiet,process_map_only_oi_share_neq_edge
+2026-08-07T06:19:51Z,2,ETHUSDT,2293118.583,4363837727.0086,35.0059,89.4598,2.927e-05,-4.2912,quiet,process_map_only_oi_share_neq_edge
+2026-08-07T06:19:51Z,3,SOLUSDT,8435193.54,615380549.6734,4.9365,94.3963,1.567e-05,-4.4372,quiet,process_map_only_oi_share_neq_edge
+2026-08-07T06:19:51Z,4,XRPUSDT,343604048.0,352503392.8432,2.8277,97.224,1.478e-05,-3.8126,quiet,process_map_only_oi_share_neq_edge
+2026-08-07T06:19:51Z,5,BNBUSDT,588443.09,346057496.7981,2.776,100.0,0.0,3.6047,quiet,process_map_only_oi_share_neq_edge
